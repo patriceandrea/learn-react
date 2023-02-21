@@ -11,9 +11,7 @@ const ToDoList = () => {
 
 
   const addCities = (e) => {
-    //Complete function
     setCities(e.target.value);
-
   };
 
   const handleSubmit = (e) => {
