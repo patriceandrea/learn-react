@@ -15,7 +15,7 @@ const ShowHideTitle = () => {
       <h1>Challenge #1</h1>
       <p>Implement a button to show/hide the text content:</p>
       <button onClick={handleClick}>Show/Hide</button>
-      {show && <a>Welcome to React Challenges</a>}
+      {show && <span>Welcome to React Challenges</span>}
     </>
   )
 }

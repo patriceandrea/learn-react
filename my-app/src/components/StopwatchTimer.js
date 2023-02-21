@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 
 const StopwatchTimer = () => {
 
-  const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0);
 
   //window can be accesed globally in brower env.
@@ -26,7 +25,6 @@ const StopwatchTimer = () => {
   };
   const resetTimer = () => {
     //when reset button is clicked, the time is cleared 
-
     clearInterval(window.timer)
     setSeconds(0)
   };
