@@ -18,16 +18,14 @@ const ToDoList = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    cityList.push(cities)
+    //add a spread of citylist + the new city 
+    setCityList([...cityList, cities])
     setCities("")
   }
 
-  const handleDeleteCity = (id) => {
-
-    const copyCityList = [...cityList];
-    copyCityList.splice(id, 1)
-    setCityList(copyCityList)
-
+  const handleDeleteCity = (index) => {
+    const filteredList = cityList.filter((_, item) => index !== item);
+    setCityList(filteredList)
   }
 
   return (
@@ -43,10 +41,7 @@ const ToDoList = () => {
       </div>
       <ul>
         {cityList.map((city, index) => (
-          <>
-            <li key={index}>{city}<button onClick={(id) => handleDeleteCity(id)}>X</button></li>
-
-          </>
+          <li key={index}>{city}<button onClick={() => handleDeleteCity(index)}>X</button></li>
         ))}
       </ul>
     </>
