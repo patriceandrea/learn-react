@@ -4,7 +4,8 @@ import React, { useState } from 'react'
 //function where if the input is a certain number , the bar will increase the color 
 //how do you make the color change into pink using css? you increase the witdth
 //can change the styling of the width in inline 
-// add a condition where 
+// add a condition where progress can only do number from 0 to 100 
+
 const ProgressBar = () => {
 
   const [progress, setProgress] = useState(0);
