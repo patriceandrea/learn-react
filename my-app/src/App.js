@@ -2,6 +2,7 @@ import './App.css';
 import ProgressBar from './components/ProgressBar';
 import ShowHideTitle from './components/ShowHideTitle';
 import StopwatchTimer from './components/StopwatchTimer';
+import SubmitFormData from './components/SubmitFormData';
 import ToDoList from './components/ToDoList';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <StopwatchTimer />
       <ToDoList />
       <ProgressBar />
+      <SubmitFormData/>
     </div>
   );
 }
