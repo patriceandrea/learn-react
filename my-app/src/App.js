@@ -1,4 +1,5 @@
 import './App.css';
+import MaxCount from './components/MaxCount';
 import ProgressBar from './components/ProgressBar';
 import ShowHideTitle from './components/ShowHideTitle';
 import StopwatchTimer from './components/StopwatchTimer';
@@ -13,6 +14,7 @@ function App() {
       <ToDoList />
       <ProgressBar />
       <SubmitFormData/>
+      <MaxCount/>
     </div>
   );
 }

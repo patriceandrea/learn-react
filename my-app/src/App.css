@@ -47,3 +47,12 @@
   transition: 1.5s ease 0.3s;
   z-index: 100;
 }
+
+.max-count{
+  background-color: #ff9472;
+  border: #ff9472 1px solid; 
+  width: 30%;
+  padding: 50px;
+  margin: 4em 0px 5em 5em;
+  text-align: center;
+}
