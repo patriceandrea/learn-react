@@ -1,4 +1,5 @@
 import './App.css';
+import Autocomplete from './components/Autocomplete';
 import MaxCount from './components/MaxCount';
 import ProgressBar from './components/ProgressBar';
 import ShowHideTitle from './components/ShowHideTitle';
@@ -13,8 +14,10 @@ function App() {
       <StopwatchTimer />
       <ToDoList />
       <ProgressBar />
-      <SubmitFormData/>
+      <SubmitFormData/>  
+      <Autocomplete/>
       <MaxCount/>
+    
     </div>
   );
 }
