@@ -1,23 +1,24 @@
-import './App.css';
-import Autocomplete from './components/Autocomplete';
-import MaxCount from './components/MaxCount';
-import ProgressBar from './components/ProgressBar';
-import ShowHideTitle from './components/ShowHideTitle';
-import StopwatchTimer from './components/StopwatchTimer';
-import SubmitFormData from './components/SubmitFormData';
-import ToDoList from './components/ToDoList';
+import "./App.css";
+import Autocomplete from "./components/Autocomplete";
+import MaxCount from "./components/MaxCount";
+import ProgressBar from "./components/ProgressBar";
+import ShowHideTitle from "./components/ShowHideTitle";
+import StopwatchTimer from "./components/StopwatchTimer";
+import SubmitFormData from "./components/SubmitFormData";
+import ToDoList from "./components/ToDoList";
+import UsePageBottom from "./components/UsePageBottom";
 
 function App() {
   return (
     <div>
-      <ShowHideTitle />
-      <StopwatchTimer />
-      <ToDoList />
+      <Autocomplete />
+      <MaxCount />
+      <SubmitFormData />
       <ProgressBar />
-      <SubmitFormData/>  
-      <Autocomplete/>
-      <MaxCount/>
-    
+      <ToDoList />
+      <StopwatchTimer />
+      <ShowHideTitle />
+      <UsePageBottom/>
     </div>
   );
 }

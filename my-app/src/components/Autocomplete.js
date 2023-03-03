@@ -40,7 +40,7 @@ const Autocomplete = () => {
 
   return (
     <>
-      O<h1>Challenge #7</h1>
+      <h1>Challenge #7</h1>
       <p>
         Implement an Autocomplete feature where when a user types in a few
         letters, it gives suggestions
