@@ -6,11 +6,12 @@ import ShowHideTitle from "./components/ShowHideTitle";
 import StopwatchTimer from "./components/StopwatchTimer";
 import SubmitFormData from "./components/SubmitFormData";
 import ToDoList from "./components/ToDoList";
-import UsePageBottom from "./components/UsePageBottom";
+import InvalidateNumbers from "./components/InvalidateNumbers";
 
 function App() {
   return (
-    <div>
+    <div>     
+      <InvalidateNumbers/>
       <Autocomplete />
       <MaxCount />
       <SubmitFormData />
@@ -18,7 +19,7 @@ function App() {
       <ToDoList />
       <StopwatchTimer />
       <ShowHideTitle />
-      <UsePageBottom/>
+ 
     </div>
   );
 }
