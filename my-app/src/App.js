@@ -7,10 +7,12 @@ import StopwatchTimer from "./components/StopwatchTimer";
 import SubmitFormData from "./components/SubmitFormData";
 import ToDoList from "./components/ToDoList";
 import InvalidateNumbers from "./components/InvalidateNumbers";
+import RemoveButton from "./components/RemoveButton";
 
 function App() {
   return (
     <div>     
+      <RemoveButton/>
       <InvalidateNumbers/>
       <Autocomplete />
       <MaxCount />
