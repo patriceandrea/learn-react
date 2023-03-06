@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 //have a state for the value in the textfield
 //have an handleChange function where only letters alllowed. 
-// How to allow only letters? use regex? use the String.replace ,ethod to remove non letters 
+// How to allow only letters? use regex? use the String.replace ,ethod to remove non letters https://bobbyhadz.com/blog/react-input-only-letters
 //once input a number, the textfield is gonna be blank
 
 const InvalidateNumbers = () => {
